@@ -16,17 +16,24 @@ export default function Web() {
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta name="twitter:card" content="summary_large_image" />
-        <title>Amica - </title>
+        <title>Amica</title>
       </Head>
       <section className="bg-white dark:bg-gray-900">
         <div className="mx-auto grid max-w-screen-xl px-4 py-8 text-center lg:py-16">
           <div className="mx-auto place-self-center">
+            <h1 className="mb-4 max-w-2xl text-4xl font-extrabold leading-none tracking-tight dark:text-blue md:text-5xl xl:text-6xl">
+            
+            
+            Meet Amica.
+            
+
+            </h1>
             <h1 className="mb-4 max-w-2xl text-4xl font-extrabold leading-none tracking-tight dark:text-white md:text-5xl xl:text-6xl">
             A learning platform reimagined for tech professionals
             </h1>
             <p className="mb-6 max-w-2xl font-light text-gray-500 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
               Amica enables tech professionals to stay at the cutting-edge. We curate hands-on learning experiences in collaboration with expert industry practitioners.
-              Stay on top of AI developments, and never miss out.
+              Stay on top of the latest in AI, and never miss out.
             </p>
           </div>
         </div>
@@ -46,6 +53,18 @@ export default function Web() {
           </div>
         </div>
       </section>
+      <section className="bg-white dark:bg-gray-900">
+        <div className="mx-auto grid max-w-screen-xl px-4 py-8 text-center lg:py-16">
+          <div className="mx-auto place-self-center">
+            <h1 className="mb-4 max-w-2xl text-4xl font-extrabold leading-none tracking-tight dark:text-white md:text-5xl xl:text-6xl">
+            Sign up for the waitlist
+            </h1>
+            <p className="mb-6 max-w-2xl font-light text-gray-500 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
+              We're currently in private beta. Sign up to be the first to know when we launch!
+            </p>
+          </div>
+        </div>
+
     </>
   )
 }
