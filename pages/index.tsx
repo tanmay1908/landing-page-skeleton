@@ -28,9 +28,9 @@ export default function Web() {
             
 
             </h1>
-            <h1 className="mb-4 max-w-2xl text-4xl font-extrabold leading-none tracking-tight dark:text-white md:text-5xl xl:text-6xl">
+            <h2 className="mb-4 max-w-2xl text-4xl font-extrabold leading-none tracking-tight dark:text-white md:text-5xl xl:text-6xl">
             A learning platform reimagined for tech professionals
-            </h1>
+            </h2>
             <p className="mb-6 max-w-2xl font-light text-gray-500 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
               Amica enables tech professionals to stay at the cutting-edge. We curate hands-on learning experiences in collaboration with expert industry practitioners.
               Stay on top of the latest in AI, and never miss out.
