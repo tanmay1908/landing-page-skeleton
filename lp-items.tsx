@@ -7,7 +7,8 @@ import tutorialIcon from './assets/tutorial.svg';
     description: "10 minute, hands-on content, created by invite-only industry practioners",
     icon: (
       <svg 
-        xmlns="http://www.w3.org/2000/svg" 
+        xmlns="http://www.w3.org/2000/svg"
+        data-name="Layer 1"
         width="794.58865" 
         height="499.42913" 
         viewBox="0 0 794.58865 499.42913">
