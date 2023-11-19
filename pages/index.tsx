@@ -49,7 +49,7 @@ export default function Web() {
           </div>
         </div>
       </section>
-      <section className="bg-white dark:bg-gray-900 py-4">
+      {/* <section className="bg-white dark:bg-gray-900 py-4">
         <div className="mx-auto grid max-w-screen-xl px-4 py-8 text-center lg:py-16">
           <div className="mx-auto place-self-center">
             <h1 className="mb-4 max-w-2xl text-3xl font-extrabold leading-none tracking-tight dark:text-white md:text-4xl xl:text-5xl">
@@ -60,7 +60,7 @@ export default function Web() {
             </p>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   )
 }
