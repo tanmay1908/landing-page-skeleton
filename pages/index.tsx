@@ -37,7 +37,7 @@ export default function Web() {
             {LP_GRID_ITEMS.map((singleItem) => (
               <div key={singleItem.title} className="flex flex-col items-center justify-center text-center">
                 <div className="mb-4 flex h-30 w-30 items-center justify-center rounded-full bg-primary-100 p-1.5 text-blue-700 dark:bg-primary-900 lg:h-12 lg:w-12">
-                  {singleItem.icon && React.cloneElement(singleItem.icon, { style: { height: '50px', width: '50px' } })}
+                  {singleItem.icon && React.cloneElement(singleItem.icon, { style: { height: '150px', width: '150px' } })}
                 </div>
                 <h3 className="mb-2 text-xl font-bold dark:text-white">{singleItem.title}</h3>
                 <p className="text-gray-500 dark:text-gray-400">{singleItem.description}</p>
