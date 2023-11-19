@@ -1,4 +1,4 @@
-import expertIcon from 'assets/experts.svg';
+import expertIcon from './assets/experts.svg';
 
  export const LP_GRID_ITEMS = [
   {
