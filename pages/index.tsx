@@ -18,18 +18,14 @@ export default function Web() {
         <meta name="twitter:card" content="summary_large_image" />
         <title>Amica</title>
       </Head>
-      <section className="bg-white dark:bg-gray-900">
+      <section className="bg-white dark:bg-gray-900 py-4">
         <div className="mx-auto grid max-w-screen-xl px-4 py-8 text-center lg:py-16">
           <div className="mx-auto place-self-center">
-            <h1 className="mb-4 max-w-2xl text-4xl font-extrabold leading-none tracking-tight dark:text-blue md:text-5xl xl:text-6xl">
-            
-            
+            <h1 className="mb-4 max-w-2xl text-4xl font-extrabold leading-none tracking-tight dark:text-white md:text-5xl xl:text-6xl text-blue-500">
             Meet Amica.
-            
-
             </h1>
-            <h2 className="mb-4 max-w-2xl text-4xl font-extrabold leading-none tracking-tight dark:text-white md:text-5xl xl:text-6xl">
-            A learning platform reimagined for tech professionals
+            <h2 className="mb-4 max-w-2xl text-3xl font-extrabold leading-none tracking-tight dark:text-white md:text-4xl xl:text-5xl">
+              A learning platform reimagined for tech professionals
             </h2>
             <p className="mb-6 max-w-2xl font-light text-gray-500 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
               Amica enables tech professionals to stay at the cutting-edge. We curate hands-on learning experiences in collaboration with expert industry practitioners.
@@ -53,18 +49,18 @@ export default function Web() {
           </div>
         </div>
       </section>
-      {/* <section className="bg-white dark:bg-gray-900">
+      <section className="bg-white dark:bg-gray-900 py-4">
         <div className="mx-auto grid max-w-screen-xl px-4 py-8 text-center lg:py-16">
           <div className="mx-auto place-self-center">
-            <h1 className="mb-4 max-w-2xl text-4xl font-extrabold leading-none tracking-tight dark:text-white md:text-5xl xl:text-6xl">
-            Sign up for the waitlist
+            <h1 className="mb-4 max-w-2xl text-3xl font-extrabold leading-none tracking-tight dark:text-white md:text-4xl xl:text-5xl">
+            Sign up for the waitlist.
             </h1>
             <p className="mb-6 max-w-2xl font-light text-gray-500 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
-              We're currently in private beta. Sign up to be the first to know when we launch!
+              We're launching soon. Sign up for the waitlist to get early access.
             </p>
           </div>
         </div>
-      </section> */}
+      </section>
     </>
   )
 }
