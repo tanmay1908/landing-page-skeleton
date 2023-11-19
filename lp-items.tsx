@@ -1,4 +1,5 @@
 import expertIcon from './assets/experts.svg';
+import tutorialIcon from './assets/tutorial.svg';
 
  export const LP_GRID_ITEMS = [
   {
@@ -6,6 +7,13 @@ import expertIcon from './assets/experts.svg';
     description: "10 minute, hands-on content, created by invite-only industry practioners",
     icon: (
       <img src={expertIcon} alt="Expert Icon" className="h-6 w-6" />
+    ),
+  },
+  {
+    title: "Hands-On Learning",
+    description: "Our lessons are interactive at time zero and allow you to engage with the material",
+    icon: (
+      <img src={tutorialIcon} alt="Tutorial Icon" className="h-6 w-6" />
     ),
   },
 ]
