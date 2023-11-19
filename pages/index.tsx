@@ -64,7 +64,7 @@ export default function Web() {
             </p>
           </div>
         </div>
-
+      </section>
     </>
   )
 }
